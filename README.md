@@ -16,7 +16,7 @@ instead of query parameters.
 Modular Javascript:
 
 ```javascript
-> import { deepSerializeForm } from 'deep-serialize-form'
+> import deepSerializeForm from 'deep-serialize-form'
 ```
 
 Include Directly:
