@@ -1,5 +1,5 @@
 {
 "name": "deep-serialize-form",
 "version": "1.0.0",
-"main": "src/deep-serialize-form.js",
+"main": "src/deep-serialize-form.js"
 }
