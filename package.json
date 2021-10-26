@@ -1,5 +1,17 @@
 {
 "name": "deep-serialize-form",
-"version": "1.0.1",
-"main": "src/deep-serialize-form.js"
+"version": "1.0.2",
+"main": "src/deep-serialize-form.js",
+"license": "GPL",
+"repository": {
+    "type": "git",
+    "url": "git+https://github.com/GistApps/deep-serialize-form"
+  },
+  "keywords": [
+    "serialize",
+    "form",
+    "serializeObject",
+    "serializeJson",
+    "json"
+  ],
 }
