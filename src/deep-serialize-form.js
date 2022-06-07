@@ -17,7 +17,7 @@
  * Last modified  : 2021-10-26 3:04:00
  */
 
-export defaultfunction deepSerializeForm(form) {
+export default function deepSerializeForm(form) {
 
   var obj = {};
 
