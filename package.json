@@ -1,6 +1,6 @@
 {
 "name": "deep-serialize-form",
-"version": "1.0.7",
+"version": "1.1.0",
 "main": "src/deep-serialize-form.js",
 "license": "GPL",
 "repository": {
