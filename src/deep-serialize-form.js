@@ -67,7 +67,7 @@ export default function deepSerializeForm(form) {
 
         obj[key].push( val );
 
-      } else if (obj[key] !== undefined && key.indexOf('[]') !== -1 && key.indexOf('[]') === key.length - 2) { // ends in '[]'
+      } else if (obj[key] !== undefined && key.slice(-2) === '[]') {
 
         obj[key] = [obj[key], val];
 

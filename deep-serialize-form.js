@@ -28,7 +28,7 @@ function deepSerializeForm(form) {
   for(var pair of formData.entries()) {
 
     var key  = pair[0];
-    var val  = pair[1];;
+    var val  = pair[1];
     var cur  = obj;
     var i    = 0;
     var keys = key.split('][');
@@ -67,7 +67,7 @@ function deepSerializeForm(form) {
 
         obj[key].push( val );
 
-      } else if (obj[key] !== undefined) {
+      } else if (obj[key] !== undefined && key.slice(-2) === '[]') {
 
         obj[key] = [obj[key], val];
 
